@@ -1,0 +1,44 @@
+<Window x:Class="LibraryWPF.Views.GenresWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Управление жанрами" 
+        Height="500" Width="600"
+        WindowStartupLocation="CenterOwner">
+    
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Заголовок -->
+        <Border Grid.Row="0" Background="#FF9800" Padding="15" CornerRadius="5" Margin="0,0,0,20">
+            <TextBlock Text="УПРАВЛЕНИЕ ЖАНРАМИ" 
+                       FontSize="20" FontWeight="Bold" 
+                       Foreground="White" HorizontalAlignment="Center"/>
+        </Border>
+
+        <!-- DataGrid с жанрами -->
+        <DataGrid Grid.Row="1" x:Name="GenresGrid" Margin="0,0,0,20">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding Id_genre}" Width="80"/>
+                <DataGridTextColumn Header="Название жанра" Binding="{Binding Name}" Width="200"/>
+                <DataGridTextColumn Header="Описание" Binding="{Binding Description_genre}" Width="250"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Кнопки управления -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Content="➕ Добавить" Width="100" Height="35" 
+                    Background="#4CAF50" Foreground="White"
+                    Click="AddGenre_Click" Margin="5"/>
+            <Button Content="✏ Редактировать" Width="100" Height="35" 
+                    Background="#2196F3" Foreground="White"
+                    Click="EditGenre_Click" Margin="5"/>
+            <Button Content="🗑 Удалить" Width="100" Height="35" 
+                    Background="#F44336" Foreground="White"
+                    Click="DeleteGenre_Click" Margin="5"/>
+        </StackPanel>
+    </Grid>
+</Window>
