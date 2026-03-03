@@ -20,15 +20,12 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-
-        <!-- Заголовок -->
         <Border Grid.Row="0" Background="#2196F3" Padding="15" CornerRadius="5" Margin="0,0,0,20">
             <TextBlock Text="УПРАВЛЕНИЕ БИБЛИОТЕЧНЫМ ФОНДОМ" 
                        FontSize="24" FontWeight="Bold" 
                        Foreground="White" HorizontalAlignment="Center"/>
         </Border>
 
-        <!-- Панель фильтрации и поиска -->
         <Border Grid.Row="1" Background="#F5F5F5" Padding="20" CornerRadius="5" Margin="0,0,0,20">
             <Grid>
                 <Grid.ColumnDefinitions>
@@ -38,7 +35,6 @@
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
 
-                <!-- Поиск по названию -->
                 <StackPanel Grid.Column="0" Orientation="Horizontal" Margin="0,0,20,0">
                     <TextBlock Text="🔍 Поиск:" FontSize="16" FontWeight="Bold" 
                                VerticalAlignment="Center" Margin="0,0,10,0"/>
@@ -47,7 +43,7 @@
                              Padding="10,0"/>
                 </StackPanel>
 
-                <!-- Фильтр по автору -->
+
                 <StackPanel Grid.Column="1" Orientation="Horizontal" Margin="0,0,20,0">
                     <TextBlock Text="👤 Автор:" FontSize="14" 
                                VerticalAlignment="Center" Margin="0,0,5,0"/>
@@ -63,7 +59,6 @@
                     </ComboBox>
                 </StackPanel>
 
-                <!-- Фильтр по жанру -->
                 <StackPanel Grid.Column="2" Orientation="Horizontal" Margin="0,0,20,0">
                     <TextBlock Text="🎭 Жанр:" FontSize="14" 
                                VerticalAlignment="Center" Margin="0,0,5,0"/>
@@ -73,7 +68,6 @@
                               DisplayMemberPath="Name"/>
                 </StackPanel>
 
-                <!-- Кнопка сброса фильтров -->
                 <Button Grid.Column="3" Content="✖ Сбросить" 
                         Width="120" Height="35" FontSize="14"
                         Background="#FF5722" Foreground="White"
@@ -81,7 +75,6 @@
             </Grid>
         </Border>
 
-        <!-- DataGrid с книгами -->
         <DataGrid Grid.Row="2" 
                   ItemsSource="{Binding Books}"
                   SelectedItem="{Binding SelectedBook}"
@@ -97,7 +90,6 @@
             </DataGrid.Columns>
         </DataGrid>
 
-        <!-- Нижняя панель с кнопками и статистикой -->
         <Border Grid.Row="3" Background="#E3F2FD" Padding="20" CornerRadius="5">
             <Grid>
                 <Grid.ColumnDefinitions>
@@ -108,7 +100,6 @@
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
 
-                <!-- Статистика -->
                 <StackPanel Grid.Column="0" Orientation="Horizontal" Margin="0,0,30,0">
                     <TextBlock Text="📊 Статистика:" FontSize="14" FontWeight="Bold" 
                                VerticalAlignment="Center" Margin="0,0,10,0"/>
@@ -122,7 +113,6 @@
                                VerticalAlignment="Center"/>
                 </StackPanel>
 
-                <!-- Кнопки управления -->
                 <Button Grid.Column="2" Content="➕ Добавить книгу" 
                         Style="{StaticResource ActionButton}"
                         Background="#4CAF50" Foreground="White"
@@ -140,7 +130,6 @@
             </Grid>
         </Border>
 
-        <!-- Кнопки управления авторами и жанрами -->
         <StackPanel Grid.Row="3" Orientation="Horizontal" 
                     HorizontalAlignment="Right" VerticalAlignment="Bottom"
                     Margin="0,20,0,0">
