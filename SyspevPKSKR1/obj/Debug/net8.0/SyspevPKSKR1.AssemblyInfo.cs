@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SyspevPKSKR1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6156a92d8fdba53facb1a8d3b6935a14fb8aaa74")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ac1090fa5614d76f7f031e1ace8fa649481ff4e")]
 [assembly: System.Reflection.AssemblyProductAttribute("SyspevPKSKR1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SyspevPKSKR1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

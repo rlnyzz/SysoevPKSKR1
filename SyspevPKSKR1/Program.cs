@@ -19,7 +19,7 @@ namespace SyspevPKSKR1
                 var services = new ServiceCollection();
                 
                 services.AddDbContext<LibraryDbContext>(options =>
-                    options.UseNpgsql("Host=localhost;Port=5432;Database=sysoevpks1;Username=postgres;Password=ваш_пароль"));
+                    options.UseNpgsql("Host=localhost;Port=5432;Database=sysoevpks1;Username=postgres;Password=RussianGrime65"));
                 
                 var serviceProvider = services.BuildServiceProvider();
                 
