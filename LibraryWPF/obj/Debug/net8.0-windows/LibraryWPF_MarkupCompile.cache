@@ -1,5 +1,5 @@
 ﻿LibraryWPF
-1.0.0.0
+
 
 winexe
 C#
@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR
 C:\Users\P415\Desktop\SysoevPKSKR1\LibraryWPF\App.xaml
 71404790871
 
-21460127826
+19-339993282
 228-1750269675
 MainWindow.xaml;Views\AuthorDialogWindow.xaml;Views\AuthorsWindow.xaml;Views\BookWindow.xaml;Views\GenreDialogWindow.xaml;Views\GenresWindow.xaml;Views\MainWindow.xaml;
 
-True
+False
 

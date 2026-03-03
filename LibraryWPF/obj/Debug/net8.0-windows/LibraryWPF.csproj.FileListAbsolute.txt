@@ -114,6 +114,7 @@ C:\Users\P415\Desktop\SysoevPKSKR1\LibraryWPF\obj\Debug\net8.0-windows\LibraryWP
 C:\Users\P415\Desktop\SysoevPKSKR1\LibraryWPF\obj\Debug\net8.0-windows\LibraryWPF.AssemblyInfoInputs.cache
 C:\Users\P415\Desktop\SysoevPKSKR1\LibraryWPF\obj\Debug\net8.0-windows\LibraryWPF.AssemblyInfo.cs
 C:\Users\P415\Desktop\SysoevPKSKR1\LibraryWPF\obj\Debug\net8.0-windows\LibraryWPF.csproj.CoreCompileInputs.cache
+C:\Users\P415\Desktop\SysoevPKSKR1\LibraryWPF\obj\Debug\net8.0-windows\LibraryWPF.sourcelink.json
 C:\Users\P415\Desktop\SysoevPKSKR1\LibraryWPF\obj\Debug\net8.0-windows\LibraryWPF.csproj.Up2Date
 C:\Users\P415\Desktop\SysoevPKSKR1\LibraryWPF\obj\Debug\net8.0-windows\LibraryWPF.dll
 C:\Users\P415\Desktop\SysoevPKSKR1\LibraryWPF\obj\Debug\net8.0-windows\refint\LibraryWPF.dll
