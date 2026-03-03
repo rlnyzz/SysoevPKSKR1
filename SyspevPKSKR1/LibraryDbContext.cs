@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using SyspevPKSKR1.Models; 
+using SyspevPKSKR1.Models;
 
-namespace SyspevPKSKR1  
+namespace SyspevPKSKR1
 {
     public class LibraryDbContext : DbContext
     {
@@ -9,10 +9,11 @@ namespace SyspevPKSKR1
         public DbSet<Genre> Genres { get; set; }
         public DbSet<Book> Books { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public LibraryDbContext(DbContextOptions<LibraryDbContext> options)
+            : base(options)
         {
-            optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=sysoevpks1;Username=postgres;Password=RussianGrime65");
         }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

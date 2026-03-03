@@ -95,8 +95,6 @@ C:\Users\P415\Desktop\SysoevPKSKR1\LibraryWPF\obj\Debug\net8.0-windows\Views\Aut
 C:\Users\P415\Desktop\SysoevPKSKR1\LibraryWPF\obj\Debug\net8.0-windows\Views\BookWindow.baml
 C:\Users\P415\Desktop\SysoevPKSKR1\LibraryWPF\obj\Debug\net8.0-windows\Views\GenreDialogWindow.baml
 C:\Users\P415\Desktop\SysoevPKSKR1\LibraryWPF\obj\Debug\net8.0-windows\Views\GenresWindow.baml
-C:\Users\P415\Desktop\SysoevPKSKR1\LibraryWPF\obj\Debug\net8.0-windows\App.baml
-C:\Users\P415\Desktop\SysoevPKSKR1\LibraryWPF\obj\Debug\net8.0-windows\MainWindow.g.cs
 C:\Users\P415\Desktop\SysoevPKSKR1\LibraryWPF\obj\Debug\net8.0-windows\Views\AuthorDialogWindow.g.cs
 C:\Users\P415\Desktop\SysoevPKSKR1\LibraryWPF\obj\Debug\net8.0-windows\Views\AuthorsWindow.g.cs
 C:\Users\P415\Desktop\SysoevPKSKR1\LibraryWPF\obj\Debug\net8.0-windows\Views\BookWindow.g.cs
@@ -107,7 +105,6 @@ C:\Users\P415\Desktop\SysoevPKSKR1\LibraryWPF\obj\Debug\net8.0-windows\App.g.cs
 C:\Users\P415\Desktop\SysoevPKSKR1\LibraryWPF\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\P415\Desktop\SysoevPKSKR1\LibraryWPF\obj\Debug\net8.0-windows\LibraryWPF_MarkupCompile.cache
 C:\Users\P415\Desktop\SysoevPKSKR1\LibraryWPF\obj\Debug\net8.0-windows\LibraryWPF_MarkupCompile.lref
-C:\Users\P415\Desktop\SysoevPKSKR1\LibraryWPF\obj\Debug\net8.0-windows\MainWindow.baml
 C:\Users\P415\Desktop\SysoevPKSKR1\LibraryWPF\obj\Debug\net8.0-windows\Views\MainWindow.baml
 C:\Users\P415\Desktop\SysoevPKSKR1\LibraryWPF\obj\Debug\net8.0-windows\LibraryWPF.g.resources
 C:\Users\P415\Desktop\SysoevPKSKR1\LibraryWPF\obj\Debug\net8.0-windows\LibraryWPF.GeneratedMSBuildEditorConfig.editorconfig
