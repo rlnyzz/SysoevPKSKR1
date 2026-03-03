@@ -22,7 +22,7 @@ namespace SyspevPKSKR1
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=sysoevpks1;Username=postgres;Password=RussianGrime65");
+                optionsBuilder.UseNpgsql("Host=localhost;Port=5433;Database=sysoevpks1;Username=postgres;Password=RussianGrime65");
             }
         }
 
