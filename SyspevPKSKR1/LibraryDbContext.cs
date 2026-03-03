@@ -14,6 +14,17 @@ namespace SyspevPKSKR1
         {
         }
 
+        public LibraryDbContext()
+        {
+        }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=sysoevpks1;Username=postgres;Password=RussianGrime65");
+            }
+        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
